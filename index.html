@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPR CFF% Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="timersPage">
+        <header>
+            <h1>CPR CFF% Calculator</h1>
+        </header>
+        <main>
+            <div class="timer-container">
+                <!-- First Timer Section -->
+                <div class="timer-section">
+                    <div class="timer-title">
+                        <h2>Total Scene Time</h2>
+                    </div>
+                    <div class="timer" id="timer1">00:00:00</div>
+                </div>
+                <!-- Second Timer Section -->
+                <div class="timer-section">
+                    <div class="timer-title">
+                        <h2>Total Compressions Time</h2>
+                    </div>
+                    <div class="timer" id="timer2">00:00:00</div>
+                </div>
+            </div>
+            <!-- Compression Control Button -->
+            <div class="buttons compression-control">
+                <button class="button" id="pauseResumeButton">Pause/Resume Compressions</button>
+            </div>
+            <!-- Central Buttons -->
+            <div class="buttons central-buttons">
+                <button class="button" id="startStopButton">Start</button>
+                <button class="button" id="resetButton" disabled>Reset</button>
+            </div>
+        </main>
+    </div>
+
+    <div id="resultsPage" style="display: none;">
+        <header>
+            <h1>CPR CFF% Results</h1>
+        </header>
+        <main>
+            <div class="results-container">
+                <p id="cffResult"></p>
+                <p id="cffRemarks"></p> <!-- Added for personalized remarks -->
+                <button class="button" id="startAgainButton">Start Again</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
