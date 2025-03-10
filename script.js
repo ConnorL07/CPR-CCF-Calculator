@@ -102,7 +102,7 @@ pauseResumeButton.addEventListener("click", () => {
 function showResults() {
     // Calculate CFF%
     const cffPercent = elapsedTime1 === 0 ? 0 : (elapsedTime2 / elapsedTime1) * 100;
-    cffResult.textContent = `CFF%: ${cffPercent.toFixed(2)}%`;
+    cffResult.textContent = `CCF%: ${cffPercent.toFixed(2)}%`;
 
     // Determine remarks based on CFF%
     let remarks;
