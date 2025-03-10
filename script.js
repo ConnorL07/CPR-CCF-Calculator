@@ -119,7 +119,7 @@ function showResults() {
     } else if (cffPercent >= 0 && cffPercent < 1) {
         remarks = "How.";
     } else {
-        remarks = "Invalid CFF%";
+        remarks = "Invalid CCF%";
     }
 
     // Display remarks
