@@ -111,7 +111,7 @@ function showResults() {
     } else if (cffPercent >= 90 && cffPercent < 99) {
         remarks = "Outstanding Job! How Do You Do It?!?";
     } else if (cffPercent >= 80 && cffPercent < 90) {
-        remarks = "Amazing CFF, Good Work!!!";
+        remarks = "Amazing CCF, Good Work!!!";
     } else if (cffPercent >= 60 && cffPercent < 80) {
         remarks = "Not Bad, But Not Good Either";
     } else if (cffPercent >= 1 && cffPercent < 60) {
